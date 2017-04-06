@@ -1,0 +1,11 @@
+[user]
+	name = industrialsynthfreak
+	email = industrialsynthfreak@privacyrequired.com
+[credential]
+    helper = osxkeychain
+[diff "pandoc"]
+    textconv=pandoc --to=markdown
+    prompt = false
+[alias]
+    wdiff = diff --word-diff=color --unified=1
+    odiff = diff --odt-diff=color --unified=1
